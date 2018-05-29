@@ -69,6 +69,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
 	position: absolute;
+	z-index: 5;
 	font-weight: 700;
     color: #4a4a4a;
 }
@@ -124,6 +125,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #headerwrap h1 {
 	position: absolute;
+	z-index: 5;
 	color:#ffffff;
 	padding-top: 10px;
 	padding-bottom: 20px;
@@ -185,6 +187,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #workwrap h1 {
+	z-index: 5;
 	color:#ffffff;
 	padding-top: 10px;
 	padding-bottom: 20px;
@@ -346,7 +349,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .clouds {
   background: transparent url(http://sylvaingarnot.fr/media/clouds.png) repeat top center;
-  z-index: 3;
+  z-index: 2;
   -moz-animation: move-clouds-back 200s linear infinite;
   -ms-animation: move-clouds-back 200s linear infinite;
   -o-animation: move-clouds-back 200s linear infinite;
