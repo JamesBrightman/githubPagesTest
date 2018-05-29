@@ -382,7 +382,7 @@ h1, h2, h3, h4, h5, h6 {
 /*Vertical Sliding*/
 .slidingVertical{
     display: inline;
-    text-indent: 0px;
+    text-indent: 8px;
 }
 .slidingVertical span{
     animation: topToBottom 12.5s linear infinite 0s;
