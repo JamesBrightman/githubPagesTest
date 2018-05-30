@@ -342,7 +342,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .stars {
-    background: #000 url(http://sylvaingarnot.fr/media/stars.png) repeat top center;
+    background: #000 url(../img/stars-min.png) repeat top center;
     z-index: -1;
 }
 
