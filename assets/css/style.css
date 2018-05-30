@@ -102,8 +102,8 @@ h1, h2, h3, h4, h5, h6 {
 #headerwrap {
 	/*background: url(../img/back.jpg) no-repeat center top;*/
 	margin-top: -140px;
-    margin-bottom: -140px;
-	padding-top: 250px;
+    margin-bottom: -190px;
+	padding-top: 200px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
@@ -252,8 +252,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .gallery img:hover {
 	opacity: 0.8;
-    transform: scale(0.95);
-    transition-duration: 0.5s;
+ /*   transform: scale(0.95);
+    transition-duration: 0.5s;  */
 }
 
 @keyframes move-twink-back {
@@ -443,7 +443,18 @@ h1, h2, h3, h4, h5, h6 {
     100% { opacity: 0; }
 }
 
+@keyframes border-pulsate {
+    0%   { border-color: rgba(255, 255, 255, 0.64); }
+    50%  { border-color: rgba(255, 255, 255, 0.20); }
+    100% { border-color: rgba(255, 255, 255, 0.64); }
+}
 
+#IntroPara2{
+    padding-top: 15px;
+}
 
+#IntroPara{
+    border: 2px solid rgba(255, 255, 255, 0.64);
+    animation: border-pulsate 5s infinite;
 
-
+}
